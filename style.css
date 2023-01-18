@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    color: coral ;
+    padding: 3rem;
+}
+img{
+    width: 60vw;
+    height: 70vh;
+    padding: 2rem;
+    border-radius: 50px;
+}
+.vacation-countdown{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.week,.day,.hour,.minute,.second{
+    font-size: 3rem;
+    
+}
